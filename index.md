@@ -1,37 +1,265 @@
 ## Welcome to GitHub Pages
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head> 
+<body> 
+  
 
-You can use the [editor on GitHub](https://github.com/edithkaren/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <!-- Move to up button -->  
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio</a></div>
+      <ul class="menu">
+          <li><a href="menu.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      
 
-### Markdown
+      <div class="media-icons">
+        <a href="https://www.facebook.com/rudraksh.paliwal.7528"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/RudrakshPaliwa4"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rudraksh.paliwal22"><i class="fab fa-instagram"></i></a> 
+         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class='fab fa-gmail' ></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Rudraksh Paliwal</div>
+       <div class="text-three">UI/UX designer, Full Stack developer,Ios developer </div>
+       <div class="text-four">From India</div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
 
-```markdown
-Syntax highlighted code block
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="" alt="Rudraksh">
+    </div>
+    <div class="right">
+      <div class="topic">Designing Is My Passion</div>
+      <p></p>
+      <div class="button"> 
+        <a href="G:\Paliwal\SVVV\3rd year\Placements\RUDRAKSH PALIWAL RESUME.docx"> </a>
+        <button>Download CV</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
-# Header 1
-## Header 2
-### Header 3
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+       <div class="experience">
+         <div class="num">1</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">70%</div>
+       </div>
 
-- Bulleted
-- List
+       <div class="box">
+         <div class="topic">Python</div>
+         <div class="per">60%</div>
+       </div> 
 
-1. Numbered
-2. List
+       <div class="box">
+         <div class="topic">Java</div>
+         <div class="per">90%</div>
+       </div>
 
-**Bold** and _Italic_ and `Code` text
+       <div class="box">
+         <div class="topic">SQL</div>
+         <div class="per">100%</div>
+       </div>
 
-[Link](url) and ![Image](src)
-```
+     </div>
+   </div>
+ </div>
+</section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Web Devlopment</div>
+       <p>Website developer both frontend and backend</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Graphic Design</div>
+       <p>Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Digital Marketing</div>
+       <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Icon Design</div>
+       <p>Icon design is the process of designing a graphic symbol that represents some real, fantasy or abstract motive, entity or action. In the context of software applications, an icon often represents a program, a function, data or a collection of data on a computer system</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Photography</div>
+       <p> the process of recording an image – a photograph – on lightsensitive film or, in the case of digital photography, via a digital electronic or magnetic memory</p>
+     </div>
 
-### Jekyll Themes
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic"> Android Apps Devlopment</div>
+       <p>developing android app in the android studio for different type of android </p>
+        </div>
+         <div class="box">
+         <div class="icon"> 
+        <i class='bx bxl-apple'></i>
+       </div>
+       <div class="topic">ios Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edithkaren/portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+   </div>
+   </div>
+ </section>
 
-### Support or Contact
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+        <button>Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="authentication.html"> Rudraksh Paliwal </a> | &#169; 2022 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js">    
+
+    // Sticky Navigation Menu JS Code
+let nav = document.querySelector("nav");
+let scrollBtn = document.querySelector(".scroll-button a");
+console.log(scrollBtn);
+let val;
+window.onscroll = function() {
+  if(document.documentElement.scrollTop > 20){
+    nav.classList.add("sticky");
+    scrollBtn.style.display = "block";
+  }else{
+    nav.classList.remove("sticky");
+    scrollBtn.style.display = "none";
+  }
+
+}
+
+// Side NavIgation Menu JS Code
+let body = document.querySelector("body");
+let navBar = document.querySelector(".navbar");
+let menuBtn = document.querySelector(".menu-btn");
+let cancelBtn = document.querySelector(".cancel-btn");
+menuBtn.onclick = function(){
+  navBar.classList.add("active");
+  menuBtn.style.opacity = "0";
+  menuBtn.style.pointerEvents = "none";
+  body.style.overflow = "hidden";
+  scrollBtn.style.pointerEvents = "none";
+}
+cancelBtn.onclick = function(){
+  navBar.classList.remove("active");
+  menuBtn.style.opacity = "1";
+  menuBtn.style.pointerEvents = "auto";
+  body.style.overflow = "auto";
+  scrollBtn.style.pointerEvents = "auto";
+}
+
+// Side Navigation Bar Close While We Click On Navigation Links
+let navLinks = document.querySelectorAll(".menu li a");
+for (var i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener("click" , function() {
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+  });
+}
+   
+
+  </script> 
+
+
+</body>
+</html>
