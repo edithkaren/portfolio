@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="https://edithkaren.github.io/rudraksh/">PORTFOLIO</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav> 
+        <div class="container">
+            <div class="form">
+                <form action="" , method="post">
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Website:</label>
+                        <input type="url" id="website" placeholder="Eg: https://google.com" required>
+                    </div>
+                    <div class="text">
+                        <label for="text">Query:</label>
+                        <input type="text" id="text" placeholder="Enter your query here " required>
+                    </div>
+                    
+                    <div class="gender">
+                        <label for="gender">Gender:</label>
+                        <span class="text-val">
+                            <label><input type="radio" name="male-female" id="male" value="Male" required>Male</label>
+                            <label><input type="radio" name="male-female" id="female" value="Female" required>Female</label>
+                        </span>
+                    </div>
+                   
+                    <div class="button">
+                        <button type="submit" id="submit" onclick="setdata();">Submit</button>
+                        <button type="reset" id="reset">Clear</button>
+                    </div>
+                </form>
+            </div>   
+        </div>
+        
+   
+        <section class="contact" id="contact">
+            <div class="main-contact">
+                <div class="contact-content">
+                    <img src="images/logo.png">
+                </div>
+    
+                <div class="contact-content">
+                    <li><a href="index.html">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#">Profile</a></li>
+                </div>
+    
+                <div class="contact-content">
+                    
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                      <li><i class="fa-brands fa-instagram"> <a href="#"> Instagram</a> </i></li>
+                </div>
+                
+    
+                <div class="contact-content">
+                    <li>Indore,<br>Madhya Pradesh 452010</li>
+                    <li>rudrakshpaliwal21@gmail.com</li>
+                    <li>+91-6266629189</li>
+                </div>
+            </div>
+        </section> 
+    </div>   
+
+    <footer>Created By Rudraksh Paliwal
+         </footer>  
+          
+</body>
+<script type="javascript" src="contact.js"></script>
+</html>

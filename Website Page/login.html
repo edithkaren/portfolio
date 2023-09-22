@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="https://edithkaren.github.io/rudraksh/">PORTFOLIO</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            </nav> 
+            <div class="container">
+                <div class="form">
+                    <form action="" , method="post">
+                        <div class="name">
+                            <label for="name">Usernname:</label>
+                            <input type="text" id="name" placeholder="Enter username" required>
+                        </div>
+                        <div class="email">
+                            <label for="Password">Password:</label>
+                            <input type="password" id="email" placeholder="Enter Password" required,hidden>
+                        </div>
+                        <div class="forgotpass">
+                          <p><a href="forgot.html"> Forgot Password </a> </p>
+                        </div>
+                      <div class="Conditons">
+                            <label for="Conditons">Agree the terms and Conditons</label>
+                            <span class="text-val">
+                                <label><input type="checkbox" name="terms" id="checkbox" value="" >terms and Conditons</label>
+                            
+                            </span>
+                        </div>
+                       
+                        <div class="button">
+                            <button type="submit" id="submit" onclick="validate();">Login</button>
+                            <button type="reset" id="reset">Clear</button>
+                          
+                        </div>
+                    </form>
+                </div>   
+            </div>     
+        </div>    
+    </body>
+
+    <script >
+       
+       var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("name").value;
+var password = document.getElementById("email").value;
+if ( username == "Formget" && password == "formget#123"){
+alert ("Login successfully");
+window.location = "index.html"; // Redirecting to other page.
+return false;
+}
+else{
+attempt --;// Decrementing by one.
+alert("You have left "+attempt+" attempt;");
+// Disabling fields  after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
+</script>
+</html>
